@@ -1,0 +1,7 @@
+H:\24-25\Csapatmunkaű\gamf\Terkep\Terkep\bin\Debug\Terkep.exe.config
+H:\24-25\Csapatmunkaű\gamf\Terkep\Terkep\bin\Debug\Terkep.exe
+H:\24-25\Csapatmunkaű\gamf\Terkep\Terkep\bin\Debug\Terkep.pdb
+H:\24-25\Csapatmunkaű\gamf\Terkep\Terkep\obj\Debug\Terkep.csproj.AssemblyReference.cache
+H:\24-25\Csapatmunkaű\gamf\Terkep\Terkep\obj\Debug\Terkep.csproj.CoreCompileInputs.cache
+H:\24-25\Csapatmunkaű\gamf\Terkep\Terkep\obj\Debug\Terkep.exe
+H:\24-25\Csapatmunkaű\gamf\Terkep\Terkep\obj\Debug\Terkep.pdb
