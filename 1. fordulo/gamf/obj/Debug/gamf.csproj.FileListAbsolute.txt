@@ -1,0 +1,7 @@
+H:\11.o\aaf\RENDEZÉS-FÁJLOK\gamf\bin\Debug\gamf.exe.config
+H:\11.o\aaf\RENDEZÉS-FÁJLOK\gamf\bin\Debug\gamf.exe
+H:\11.o\aaf\RENDEZÉS-FÁJLOK\gamf\bin\Debug\gamf.pdb
+H:\11.o\aaf\RENDEZÉS-FÁJLOK\gamf\obj\Debug\gamf.csproj.AssemblyReference.cache
+H:\11.o\aaf\RENDEZÉS-FÁJLOK\gamf\obj\Debug\gamf.csproj.CoreCompileInputs.cache
+H:\11.o\aaf\RENDEZÉS-FÁJLOK\gamf\obj\Debug\gamf.exe
+H:\11.o\aaf\RENDEZÉS-FÁJLOK\gamf\obj\Debug\gamf.pdb
