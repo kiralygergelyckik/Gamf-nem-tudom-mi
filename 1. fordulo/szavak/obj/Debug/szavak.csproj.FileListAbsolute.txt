@@ -1,0 +1,7 @@
+H:\!Asztali valami\verseny\szavak\bin\Debug\szavak.exe.config
+H:\!Asztali valami\verseny\szavak\bin\Debug\szavak.exe
+H:\!Asztali valami\verseny\szavak\bin\Debug\szavak.pdb
+H:\!Asztali valami\verseny\szavak\obj\Debug\szavak.csproj.AssemblyReference.cache
+H:\!Asztali valami\verseny\szavak\obj\Debug\szavak.csproj.CoreCompileInputs.cache
+H:\!Asztali valami\verseny\szavak\obj\Debug\szavak.exe
+H:\!Asztali valami\verseny\szavak\obj\Debug\szavak.pdb
