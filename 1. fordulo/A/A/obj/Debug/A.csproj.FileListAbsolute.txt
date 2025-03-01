@@ -5,3 +5,10 @@ D:\Suli\Programozás\visual\hazi\hazi\bin\Debug\A\A\bin\Debug\A.exe
 D:\Suli\Programozás\visual\hazi\hazi\bin\Debug\A\A\bin\Debug\A.pdb
 D:\Suli\Programozás\visual\hazi\hazi\bin\Debug\A\A\obj\Debug\A.exe
 D:\Suli\Programozás\visual\hazi\hazi\bin\Debug\A\A\obj\Debug\A.pdb
+E:\SULI\Gamf-nem-tudom-mi\1. fordulo\A\A\obj\Debug\A.csproj.AssemblyReference.cache
+E:\SULI\Gamf-nem-tudom-mi\1. fordulo\A\A\obj\Debug\A.csproj.CoreCompileInputs.cache
+E:\SULI\Gamf-nem-tudom-mi\1. fordulo\A\A\obj\Debug\A.exe
+E:\SULI\Gamf-nem-tudom-mi\1. fordulo\A\A\obj\Debug\A.pdb
+E:\SULI\Gamf-nem-tudom-mi\1. fordulo\A\A\bin\Debug\A.exe.config
+E:\SULI\Gamf-nem-tudom-mi\1. fordulo\A\A\bin\Debug\A.exe
+E:\SULI\Gamf-nem-tudom-mi\1. fordulo\A\A\bin\Debug\A.pdb
