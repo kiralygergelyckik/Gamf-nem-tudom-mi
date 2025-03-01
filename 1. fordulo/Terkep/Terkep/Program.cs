@@ -6,12 +6,9 @@ namespace Terkep
     {
         static void Main(string[] args)
         {
-            //a
             int[,] terkep = new int[30, 30];
             beolvas(terkep);
-            //b
             Keresesviz(terkep);
-            //c
         }
 
         private static void beolvas(int[,] terkep)
@@ -42,32 +39,31 @@ namespace Terkep
                     }
                 }
             }
-            Console.WriteLine(db);
-            Console.WriteLine(vizdb);
+            Console.WriteLine(db); 
+            Console.WriteLine(vizdb); 
         }
 
         private static int Vizfokyik(int i, int j, int[,] terkep, int[,] vizesTerulet, int vizdb)
         {
-            if (vizesTerulet[i, j] == 21)
+            if (i < 0 || i >= 30 || j < 0 || j >= 30 || vizesTerulet[i, j] == 21)
                 return vizdb;
 
             vizesTerulet[i, j] = 21;
             vizdb++;
-            
 
-            if (i - 1 >= 0 && terkep[i - 1, j] < terkep[i, j] && vizesTerulet[i - 1, j] != 21)
+            if (i - 1 >= 0 && terkep[i - 1, j] <= terkep[i, j]) 
             {
                 vizdb = Vizfokyik(i - 1, j, terkep, vizesTerulet, vizdb);
             }
-            if (i + 1 < 30 && terkep[i + 1, j] < terkep[i, j] && vizesTerulet[i + 1, j] != 21) 
+            if (i + 1 < 30 && terkep[i + 1, j] <= terkep[i, j]) 
             {
-                vizdb = Vizfokyik(i + 1, j, terkep, vizesTerulet, vizdb); 
+                vizdb = Vizfokyik(i + 1, j, terkep, vizesTerulet, vizdb);
             }
-            if (j + 1 < 30 && terkep[i, j + 1] < terkep[i, j] && vizesTerulet[i, j + 1] != 21) 
+            if (j + 1 < 30 && terkep[i, j + 1] <= terkep[i, j]) 
             {
-            vizdb = Vizfokyik(i, j + 1, terkep, vizesTerulet, vizdb); 
+                vizdb = Vizfokyik(i, j + 1, terkep, vizesTerulet, vizdb);
             }
-            if (j - 1 >= 0 && terkep[i, j - 1] < terkep[i, j] && vizesTerulet[i, j - 1] != 21)
+            if (j - 1 >= 0 && terkep[i, j - 1] <= terkep[i, j]) 
             {
                 vizdb = Vizfokyik(i, j - 1, terkep, vizesTerulet, vizdb);
             }
