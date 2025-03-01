@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
 namespace Terkep
 {
@@ -12,6 +8,7 @@ namespace Terkep
         {
             int[,] terkep = new int[30, 30];
             beolvas(terkep);
+            Keresesviz(terkep);
         }
 
         private static void beolvas(int[,] terkep)
@@ -24,24 +21,33 @@ namespace Terkep
                     terkep[i, j] = Convert.ToInt32(sor[j]);
                 }
             }
-            int db = Kereses(terkep);
-            Console.WriteLine(db);
         }
 
-        private static int Kereses(int[,] terkep)
+        private static void Keresesviz(int[,] terkep)
         {
             int db = 0;
+            int vizdb = 0;
+            int[,] vizesTerulet = new int[30, 30];
             for (int i = 0; i < 30; i++)
             {
                 for (int j = 0; j < 30; j++)
                 {
                     if (terkep[i, j] == 21)
                     {
-                        db += 1;
+                        db++;
+                        //Vizfokyik(i, j, terkep, vizesTerulet);
                     }
                 }
             }
-            return db;
+            for (int i = 0; i < 30; i++)
+            {
+                for (int j = 0; j < 30; j++)
+                {
+                    vizdb++;
+                }
+            }
+            Console.WriteLine(db);
+            Console.WriteLine(vizdb);
         }
     }
 }
