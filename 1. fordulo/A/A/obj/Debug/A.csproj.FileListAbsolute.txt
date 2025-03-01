@@ -1,0 +1,7 @@
+D:\Suli\Programozás\visual\hazi\hazi\bin\Debug\A\A\obj\Debug\A.csproj.AssemblyReference.cache
+D:\Suli\Programozás\visual\hazi\hazi\bin\Debug\A\A\obj\Debug\A.csproj.CoreCompileInputs.cache
+D:\Suli\Programozás\visual\hazi\hazi\bin\Debug\A\A\bin\Debug\A.exe.config
+D:\Suli\Programozás\visual\hazi\hazi\bin\Debug\A\A\bin\Debug\A.exe
+D:\Suli\Programozás\visual\hazi\hazi\bin\Debug\A\A\bin\Debug\A.pdb
+D:\Suli\Programozás\visual\hazi\hazi\bin\Debug\A\A\obj\Debug\A.exe
+D:\Suli\Programozás\visual\hazi\hazi\bin\Debug\A\A\obj\Debug\A.pdb
