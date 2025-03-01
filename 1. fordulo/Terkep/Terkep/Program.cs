@@ -35,19 +35,41 @@ namespace Terkep
                     if (terkep[i, j] == 21)
                     {
                         db++;
-                        //Vizfokyik(i, j, terkep, vizesTerulet);
+                        vizdb = Vizfokyik(i, j, terkep, vizesTerulet, vizdb);
                     }
-                }
-            }
-            for (int i = 0; i < 30; i++)
-            {
-                for (int j = 0; j < 30; j++)
-                {
-                    vizdb++;
                 }
             }
             Console.WriteLine(db);
             Console.WriteLine(vizdb);
+        }
+
+        private static int Vizfokyik(int i, int j, int[,] terkep, int[,] vizesTerulet, int vizdb)
+        {
+            if (vizesTerulet[i, j] == 21)
+                return vizdb;
+
+            vizesTerulet[i, j] = 21;
+            vizdb++;
+            
+
+            if (i - 1 >= 0 && terkep[i - 1, j] < terkep[i, j] && vizesTerulet[i - 1, j] != 21)
+            {
+                vizdb = Vizfokyik(i - 1, j, terkep, vizesTerulet, vizdb);
+            }
+            if (i + 1 < 30 && terkep[i + 1, j] < terkep[i, j] && vizesTerulet[i + 1, j] != 21) 
+            {
+                vizdb = Vizfokyik(i + 1, j, terkep, vizesTerulet, vizdb); 
+            }
+            if (j + 1 < 30 && terkep[i, j + 1] < terkep[i, j] && vizesTerulet[i, j + 1] != 21) 
+            {
+            vizdb = Vizfokyik(i, j + 1, terkep, vizesTerulet, vizdb); 
+            }
+            if (j - 1 >= 0 && terkep[i, j - 1] < terkep[i, j] && vizesTerulet[i, j - 1] != 21)
+            {
+                vizdb = Vizfokyik(i, j - 1, terkep, vizesTerulet, vizdb);
+            }
+
+            return vizdb;
         }
     }
 }
