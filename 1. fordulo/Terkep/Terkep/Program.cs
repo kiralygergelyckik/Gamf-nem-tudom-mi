@@ -6,9 +6,12 @@ namespace Terkep
     {
         static void Main(string[] args)
         {
+            //a
             int[,] terkep = new int[30, 30];
             beolvas(terkep);
+            //b
             Keresesviz(terkep);
+            //c
         }
 
         private static void beolvas(int[,] terkep)
