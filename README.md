@@ -1,1 +1,1 @@
-# Gamf-nem-tudom-mi
+ENYIM A MÁSODIK FELADAT
