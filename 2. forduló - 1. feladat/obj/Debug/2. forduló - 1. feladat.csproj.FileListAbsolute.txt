@@ -1,0 +1,7 @@
+E:\SULI\Gamf-nem-tudom-mi\2. forduló - 1. feladat\bin\Debug\_2.forduló___1.feladat.exe.config
+E:\SULI\Gamf-nem-tudom-mi\2. forduló - 1. feladat\bin\Debug\_2.forduló___1.feladat.exe
+E:\SULI\Gamf-nem-tudom-mi\2. forduló - 1. feladat\bin\Debug\_2.forduló___1.feladat.pdb
+E:\SULI\Gamf-nem-tudom-mi\2. forduló - 1. feladat\obj\Debug\2. forduló - 1. feladat.csproj.AssemblyReference.cache
+E:\SULI\Gamf-nem-tudom-mi\2. forduló - 1. feladat\obj\Debug\2. forduló - 1. feladat.csproj.CoreCompileInputs.cache
+E:\SULI\Gamf-nem-tudom-mi\2. forduló - 1. feladat\obj\Debug\_2.forduló___1.feladat.exe
+E:\SULI\Gamf-nem-tudom-mi\2. forduló - 1. feladat\obj\Debug\_2.forduló___1.feladat.pdb
